@@ -1,0 +1,43 @@
+@charset "utf-8";
+@font-face 
+{ 
+	font-family: 'OrsonCasual'; 
+	src: url('/users/i282041/wp12/game/fonts/Orson_Casual_Heavy.ttf'); 
+}
+@font-face
+{
+	font-family: 'Arnold'; 
+	src: url('/users/i282041/wp12/game/fonts/arnold.ttf');
+}
+body
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#595959;
+	background:#1f1f1f;
+}
+
+#container
+{
+	height:500px;
+	width:800px;
+	margin:50px auto 0 auto;
+}
+
+#stageCanvas
+{
+	background-color:#f1f1f1;
+	box-shadow:inset 0 0 10px #0f0f0f;
+}
+
+.fb-like
+{
+	float:right;
+	padding:10px 0;
+}
+
+.copyright
+{
+	float:left;
+	padding:10px 0;
+}

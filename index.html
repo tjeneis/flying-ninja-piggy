@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+	<title>Flying Ninja Piggy&#8482;</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../game/css/style.css"/>
+	<script src="http://code.createjs.com/easeljs-0.4.2.min.js"></script>
+</head>
+
+<body onload="checkCookie()">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/nl_NL/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+	<div id="container">        
+        <canvas id="stageCanvas" width="800" height="500"></canvas>
+        <script src="../game/js/main.js"></script>
+        
+        <div class="copyright">
+        	<a href="http://www.new-vibe.nl" target="_blank"><img src="img/logo_small.png"/></a> design + code
+        </div>
+
+        <div class="fb-like" data-href="https://www.facebook.com/pages/New-Vibe-Media/310554872297223" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true" data-font="arial" data-colorscheme="dark"></div>
+  	</div>
+</body>
+</html>
